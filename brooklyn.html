@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+       <meta charset="utf-8">
+       <title>Project 1 | Brooklyn</title>
+       <link href="css/StyleSheet.css" rel="stylesheet" type="text/css">
+       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+       
+       <style>       
+              .brooklyn-style {
+                     background-color: black; 
+                     color: chartreuse; 
+                     opacity:.75;
+                     background-image: url(img/nets-logo.png);
+                     background-repeat: no-repeat;
+                     background-size: 12%;
+                     background-position: right; 
+                     width: auto; }
+       </style>
+</head>
+<body style="background-color: white; font-family: 'Trebuchet MS';">
+
+       <header>
+              <nav style="width:100%; display: flex; justify-content: center;">
+                     <ul class="ul-style">
+                            <li><a href=index.html>Home</a></li>
+                            <li><a href=bronx.html>The Bronx</a></li>
+                            <li><a href=#brooklyn onclick="getElementById('demo').innerHTML=Date()">Brooklyn</a></li>
+                            <li><a href=manhattan.html>Manhattan</a></li>
+                     </ul>
+              </nav>
+       </header>
+
+       <aside style="border: 2px sold red; text-align: center;">
+              <h1 style="font-family: 'Lucida Handwriting'; color: black; font-size: large;">Brooklyn</h1>
+       </aside>
+       <hr />
+       
+       <section>       
+              <img src="img/shooter.gif" style="border: 1px solid whitesmoke; border-radius: 5px; box-shadow: 10px 10px grey; margin-left: 25%; margin-right: 25%; height: 400px; width: 50%;" loop="5" ></img>
+              
+              <p style="border: 1px solid whitesmoke; background-color: black; border-radius: 5px; box-shadow: 10px 10px grey; color:white; font-family:'Trebuchet MS'; margin-left: 25%; margin-right: 25%; width: 50%; opacity: .75;"><br />
+              <i>Brooklyn</i>
+              <br /><br />
+              Brooklyn (/ˈbrʊklɪn/) is a borough of New York City, coextensive with Kings County, in the U.S. state of New York. Kings
+              County is the most populous county in New York State, as well as the second-most densely populated county in the United
+              States. It is also New York City's most populous borough, with 2,736,074 residents in 2020. If each borough
+              were ranked as a city, Brooklyn would rank as the third-most populous in the U.S., after Los Angeles and Chicago.
+              <br /><br />
+              Named after the Dutch village of Breukelen, it is located on the western end of Long Island and shares a land border
+              with the borough of Queens. Brooklyn has several bridge and tunnel connections to the borough of Manhattan across the
+              East River and the Verrazzano-Narrows Bridge connects it with Staten Island. With a land area of 70.82 square miles
+              (183.4 km<sup>2</sup>) and a water area of 26 square miles (67 km<sup>2</sup>), Kings County is New York state's 
+              fourth-smallest county by land area and third-smallest by total area.
+              <br /><br />
+              </p>
+       </section>
+       
+       <form style="background-color:black; box-shadow: 10px 10px gray; border-radius: 5px; opacity:.75; margin-left: 25%; margin-right: 25%; width: 50%;">       
+              <fieldset class="brooklyn-style">
+                     <br />
+                     <legend>Buy tickets here: Brooklyn Nets</legend>
+              
+                     <div>
+                            <input type="radio" id="one" name="tix" value="one" checked>
+                            <label for="1tix">1 ticket : $100.00</label>
+                     </div>
+              
+                     <div>
+                            <input type="radio" id="two" name="tix" value="two">
+                            <label for="2tix">2 tickets: $200.00</label>
+                     </div>
+              
+                     <div>
+                            <input type="radio" id="three" name="tix" value="three">
+                            <label for="3tix">3 tickets: $300.00</label>
+                     </div>
+                     <br />
+                     <div>
+                            <input type="checkbox" id="unlimited" name="tix" value="unlimited">
+                            <label for="3tix">Courtside Seats +$100.00</label>
+                     </div>
+                     <br />
+                     <input type="button" style="border: .5px solid black; background-color: chartreuse; font-family: 'Trebuchet MS'; 
+                                                 border-radius: 25px; width: 200px; cursor: pointer;"
+                            onclick="getElementById('demo').innerHTML=Date()" value="Submit"></input>
+              </fieldset>
+       </form>
+              
+              <p>Contact information below:</p>
+              <p id="demo" style="color: black;"></p>
+              <hr />
+              
+              <span class="material-icons" style="font: size 150px; color:l#111111; text-shadow:2px 2px 4px #000000;">email</span>
+              <a href="mailto:jon.doe@gmail.com" style="color: black; text-decoration: none;">Jon Doe</a>
+              <br />
+              <span class="material-icons" style="font: size 150px; color: #111111; text-shadow:2px 2px 4px #000000;">call</span>
+              <a href="tel:+1-212-999-9999" style="color: black; text-decoration: none;">1-212-999-9999</a>
+              <br />
+              <i class="material-icons" style="font: size 150px; color: #111111; text-shadow:2px 2px 4px #000000;">thumb_up</i>
+              <a href="https://www.facebook.com/nycgo/" style="color: black; text-decoration: none;" target="_blank">Visit NYC on
+                     Facebook<br /></a>
+              <br />
+
+       
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.606134172176!2d-73.9776042847594!3d40.68264647933506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bae694479a3%3A0xb9949385da52e69e!2sBarclays%20Center!5e0!3m2!1sen!2sus!4v1652056266747!5m2!1sen!2sus"
+              width="500" height="200" style="border: 1px solid red;; border-radius: 25px;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+       </iframe>
+       <br /><br />
+       <hr />
+       
+       <footer class="footer-style">
+              <code style="background-color: black; color: chartreuse;">This is the end of this webpage</code>
+       </footer>
+
+</body>
+
+</html>

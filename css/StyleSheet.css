@@ -1,0 +1,124 @@
+/* This is the Style Sheet for Project 1 */  
+.anchor-style {
+       color: black;
+       font: size 70px;
+       text-shadow: 2px 2px 4px #000000;
+}
+
+.body-style {
+       height: 30px;
+       font-family: 'Trebuchet MS';
+       border: .5px solid black; 
+       background-color: chartreuse; 
+       font-family: 'Trebuchet MS'; 
+       border-radius: 25px;
+       width: 200px; }
+       
+.button-style:onhover {
+       background-color: lawngreen;
+}
+
+.caption-style {
+       background-color: #333333;
+       border: 2px solid white;
+       border-radius: 10px;
+       color: black;
+       font-family:'Trebuchet MS';
+       font-size: 14px;
+       font-weight: bold;
+       height: 25px;
+       padding-top: 5px;
+       text-align:center;
+       width: 100%; }
+       
+.caption-style > a {
+       color: white; 
+       text-decoration: none; }
+       
+.caption-style:active {
+       box-shadow: inset -2px -2px 3px lightgrey,
+       inset 2px 2px 3px black; }
+
+.caption-style:hover {
+       background-color: #111111;
+       cursor: pointer; }
+       
+.info-style {
+       background-color: #333333;
+       border: 2px solid white;
+       border-radius: 5px;
+       color: white;
+       font-family:'Trebuchet MS';
+       margin-left: 5%;
+       margin-right: 5%;
+       padding-left: .5vw;
+       text-align: left; }
+
+.figure-style {
+       margin-left: 0;
+       padding-left: 0;
+       padding-right: 0;
+       margin-right: 0;
+       margin-block-end: 0;
+       border-radius: 5px;
+       float: left;
+       justify-content: center; 
+       margin-left: 10vh; }       
+
+.footer-style {
+       background-color: black;
+       bottom: 0;
+       color: chartreuse;
+       height: 25px;
+       left: 0;
+       text-align: center;
+       width: 100%; }
+
+.form-style {
+       display: inline-block;
+       justify-content:center;
+       background-color: black; 
+       border-radius: 5px; color: chartreuse; 
+       font-family:'Trebuchet MS'; ; 
+       width: 100%; 
+       opacity: 0.75; }
+
+.image-style {
+       border-radius: 5px;
+       height: 200px;
+       width: 350px; }
+       
+nav {
+       background-color: #333333;
+       padding: 0;
+       margin: 0; }
+
+li { 
+       display: flex;
+       float: left; }
+       
+li a {
+ 
+       color: white;
+       text-align: center;
+       padding: 16px;
+       text-decoration: none; }
+
+li a:hover {
+       background-color: #111111;
+       cursor: pointer; }
+
+.span-style {
+       font: size 100px;
+       color: black;
+       text-shadow: 2px 2px 4px #000000; }
+       
+.ul-style {
+       font-family: 'Trebuchet MS';
+       list-style-type: none;
+       padding: 0;
+       margin: 0;
+       overflow: hidden;
+       background-color: #333333; 
+       width: max-content; }
+       

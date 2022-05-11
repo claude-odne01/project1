@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+       <meta charset="utf-8">
+       <title>Project 1 | The Bronx</title>
+       <link href="css/StyleSheet.css" rel="stylesheet" type="text/css">
+       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body style="background-color: lightgrey; font-family: 'Trebuchet MS';">
+
+       <header>
+              <nav style="width:100%; display: flex; justify-content: center;">
+                     <ul class="ul-style">
+                            <li><a href=index.html>Home</a></li>
+                            <li><a href=#bronx onclick="getElementById('demo').innerHTML=Date()">The Bronx</a></li>
+                            <li><a href=brooklyn.html>Brooklyn</a></li>
+                            <li><a href=manhattan.html>Manhattan</a></li>
+                     </ul>
+              </nav>
+       </header>
+
+       <aside style="text-align: center;">
+              <h1 style="font-family: 'Lucida Handwriting'; color: black; font-size: large;">The Bronx</h1>
+      <hr />
+       
+       <section style="background-color: black; opacity: 0.8; width: 100%; display: flex; justify-content: center;">
+              <img alt="Tiger" src="img/tiger.jpg"
+                     style="border-radius: 90px; height: 300px; width: 60%;; align-self: center;"></img>
+       </section>
+
+       <section>
+       <p
+              style="background-color:black; border-radius: 5px; color: chartreuse; font-family: 'Trebuchet MS'; font-weight: bold; padding-left: 1%; padding: 0% 1% 1% 1%; opacity: 0.8;">
+              <br />
+              The Bronx Zoo
+              <br /><br />
+              The Bronx Zoo (also historically the Bronx Zoological Park and the Bronx Zoological Gardens) is a zoo
+              within Bronx Park
+              in the Bronx, New York. It is one of the largest zoos in the United States by area and is the largest
+              metropolitan zoo
+              in the United States by area, comprising 265 acres (107 hectacres) of park lands and naturalistic habitats
+              separated by the
+              Bronx River. On average, the zoo has 2.15 million visitors each year as of 2009. The zoo's original
+              permanent
+              buildings, known as Astor Court, were designed as a series of Beaux-Arts pavilions grouped around the
+              large circular sea
+              lion pool. The Rainey Memorial Gates were designed by sculptor Paul Manship in 1934 and listed on the
+              National
+              Register of Historic Places in 1972.
+              <br /><br />
+              The zoo opened on November 8, 1899, featuring 843 animals in 22 exhibits. Its first director was William
+              Temple
+              Hornaday, who served as director for 30 years. From its inception the zoo has played a vital role in
+              animal
+              conservation. In 1905, the American Bison Society was created in an attempt to save the American bison
+              from extinction,
+              which had been depleted from tens-of-millions of animals to only a few hundred. Two years later they were
+              successfully
+              reintroduced into the wild. In 2007, the zoo successfully reintroduced three Chinese alligators into the
+              wild. The
+              breeding was a milestone in the zoo's 10-year effort to reintroduce the species to the Yangtze River in
+              China.
+              <br /><br />
+              Today, the Bronx Zoo is world-renowned for its large and diverse animal collection, and its award-winning
+              exhibitions. The zoo is part of an integrated system of four zoos and one aquarium managed by the Wildlife
+              Conservation Society (WCS), and it is accredited by the Association of Zoos and Aquariums (AZA).
+              <br /><br />
+       </p>
+       </section>
+       
+       <section style="background-color: black; color: white; opacity:.7; display: flex; justify-content: center;">
+              <table style="background-color:  orangered; border: 2px solid black; border-radius: 5px; width: fit-content;">
+                     <tr style="background-color: oragered;">
+                            <th style=" border: 1px solid black; width: 50px;">Schedule</th>
+                            <th style=" border: 1px solid black; width: 50px;">Monday</th>
+                            <th style=" border: 1px solid black; width: 50px;">Tuesday</th>
+                            <th style=" border: 1px solid black; width: 50px;">Wednesday</th>
+                            <th style=" border: 1px solid black; width: 50px;">Thursday</th>
+                            <th style=" border: 1px solid black; width: 50px;">Friday</th>
+                            <th style=" border: 1px solid black; width: 50px;">Saturday</th>
+                            <th style=" border: 1px solid black; width: 50px;">Sunday</th>
+                     </tr>
+                     <tr style="background-color: orange;">
+                            <td></td>
+                            <td style=" border: 1px solid black; width: 50px;">10am-7pm</td>
+                            <td style=" border: 1px solid black; width: 50px;">10am-7pm</td>
+                            <td style=" border: 1px solid black; width: 50px;">10am-7pm</td>
+                            <td style=" border: 1px solid black; width: 50px;">10am-7pm</td>
+                            <td style=" border: 1px solid black; width: 50px;">10am-7pm</td>
+                            <td style=" border: 1px solid black; width: 50px;">10am-7pm</td>
+                            <td style=" border: 1px solid black; width: 50px;">10am-7pm</td>
+                     </tr>
+              </table>
+       </section>
+       
+       <form class="form-style" >   
+              
+              <fieldset style=" background-color: black; color: white; margin-left: 25%; margin-right: 25%; opacity:.86; width: 47%;">
+                     <legend>Buy tickets here: </legend>
+       
+                     <div>
+                            <input type="radio" id="one" name="tix" value="one" checked>
+                            <label for="1tix">1 ticket : $10.00</label>
+                     </div>
+       
+                     <div>
+                            <input type="radio" id="two" name="tix" value="two">
+                            <label for="2tix">2 tickets: $20.00</label>
+                     </div>
+       
+                     <div>
+                            <input type="radio" id="three" name="tix" value="three">
+                            <label for="3tix">3 tickets: $30.00</label>
+                     </div>
+       
+                     <div>
+                            <input type="checkbox" id="unlimited" name="tix" value="unlimited">
+                            <label for="3tix">Unlimited Tiger Day Pass +$10.00</label>
+                     </div>
+                     <br />
+                     <input type="button" style="border: .5px solid black; background-color: chartreuse; font-family: 'Trebuchet MS'; 
+                                   border-radius: 25px; width: 200px; cursor: pointer;" 
+                                           onclick="getElementById('demo').innerHTML=Date()"  value="Submit"></input>
+              </fieldset>
+              <br />
+       </form>    
+
+       <div style="border: 2px solid red; background-color: black; display: flex; justify-content: center; opacity: 0.7;">
+              <a href="img/bronx-zoo-map.png" style="align-content: center ;border: 2px solid chartreuse; color: white;
+                                   font-family:'Trebuchet MS';  text-decoration: none; text-align: center; width:  100%;"
+                     download="realmap.jpg" target="_blank">Download the map of the <i>Bronx Zoo</i> here: <img src="img\bronx-zoo-map.png"
+                            style="height: 50px; width: 50px;"></img>
+              </a>
+       </div>
+       
+       <p>Contact information below:</p>
+       <p id="demo" style="color: black;"></p>
+       <hr />
+       
+       <span class="material-icons" style="font: size 150px; color:l#111111; text-shadow:2px 2px 4px #000000;">email</span>
+       <a href="mailto:jon.doe@gmail.com" style="color: black; text-decoration: none;">Jon Doe</a>
+       <br />
+       <span class="material-icons" style="font: size 150px; color: #111111; text-shadow:2px 2px 4px #000000;">call</span>
+       <a href="tel:+1-212-999-9999" style="color: black; text-decoration: none;">1-212-999-9999</a>
+       <br />
+       <i class="material-icons" style="font: size 150px; color: #111111; text-shadow:2px 2px 4px #000000;">thumb_up</i>
+       <a href="https://www.facebook.com/nycgo/" style="color: black; text-decoration: none;" target="_blank">Visit NYC on
+              Facebook<br /></a>
+       <br />
+
+       
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.9218041973777!2d-73.88429718475378!3d40.85164057931689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f5c23314f2e7%3A0x7b585743645056b5!2sBronx%20Zoo%20Belmont%20Entrance!5e0!3m2!1sen!2sus!4v1652055910251!5m2!1sen!2sus"
+              width="500" height="200" style="border: 1px solid red; border-radius: 25px;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+       </iframe>
+       <br /><br />
+       <hr />
+       
+       <footer class="footer-style">
+              <code>This is the end of this webpage</code>
+       </footer>
+</body>
+
+</html>

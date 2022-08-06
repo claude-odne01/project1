@@ -6,10 +6,10 @@
        <link href="css/StyleSheet.css" rel="stylesheet" type="text/css">
        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body style="background-color: white; font-family: 'Trebuchet MS';">
+<body style="background-color: white; font-family: 'Trebuchet MS;">
       
       <header>
-              <nav style="width:100%; display: flex; justify-content: center;">
+              <nav style="width: 100%; display: flex; justify-content: center;">
                      <ul class="ul-style">
                             <li><a href=#home onclick="getElementById('demo').innerHTML=Date()">Home</a></li>
                             <li><a href=bronx.html>The Bronx</a></li>
@@ -21,28 +21,29 @@
                      
        <aside style="text-align: center;">
               <h1 style="font-family: 'Lucida Handwriting'; font-size: large; color: black">New York City</h1>
+              <p id="demo"></p>
        </aside>
       <hr />
        
-       <figure style="width: inherit; display: block; justify-content: center; height: 250px;">
+       <section style="display: flex; align-items: flex-start; justify-content: center; height: 250px;">
               <figure class="figure-style">
                      <img src="img/bronxzoo.jpg" alt="Bronx Zoo" class="image-style"></img>
-                     <figcaption class="caption-style"><a href=bronx.html>The Bronx Zoo</a></figcaption>
+                     <figcaption class="caption-style"><a href="bronx.html">The Bronx Zoo</a></figcaption>
               </figure>
               
               <figure class="figure-style">
                      <img src="img/barclayscenter.jpg" alt="Barclay Center" class="image-style"></img>
-                     <figcaption class="caption-style"><a href=brooklyn.html>Barclay Center</a></figcaption>
+                     <figcaption class="caption-style"><a href="brooklyn.html">Barclay Center</a></figcaption>
               </figure>
               
               <figure class="figure-style">       
                      <img src="img/guggenheim.jpg" alt="Guggenheimy" class="image-style"></img>
-                     <figcaption class="caption-style"><a href=manhattan.html>Guggenheim Museum</a></figcaption>
+                     <figcaption class="caption-style"><a href="manhattan.html">Guggenheim Museum</a></figcaption>
               </figure>              
-       </figure>
+       </section>
        <br /><hr />
        
-       <section class="info-style">
+       <section class="info-style" style="display: flex; justify-content: center;">
               <p>
               <i>New York</i>
               <br /><br />
